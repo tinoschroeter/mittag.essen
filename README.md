@@ -1,5 +1,6 @@
 ## Lecker Essen mit curl
 ![Bash Script](https://img.shields.io/badge/%23!Bash%20-%20Script-blue.svg) 
+![BoS](https://img.shields.io/badge/%23!Bash%20-%20on%20steroids-blue.svg)
 
 ```
  curl mittag.es/sen
@@ -22,13 +23,11 @@
 + Chilli_sin_Carne
 + Ofengemuese
 + Blumenkohl_Curry
-+ Poached_eggs_mit_Avokado
 + Mexikanische_Burritos
-Mexikanicher_Bohneneintopf
-Linsensuppe
-Pilzresotto
-Spagetti_mit_Pesto
-Gemuese_Suppe
-Tofurösti mit Pilzsahne Souce und Spaetzle
-Spaetzle_in_Pilz_Sahne_Sauce
-Stampfkartoffel_mit_Spinat
++ Linsensuppe
++ Pilzresotto
++ Spagetti_mit_Pesto
++ Poached_eggs_mit_Avokado
++ Gemuese_Suppe
++ Spaetzle_in_Pilz_Sahne_Sauce
++ Stampfkartoffel_mit_Spinat

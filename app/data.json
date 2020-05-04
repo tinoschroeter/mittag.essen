@@ -137,5 +137,48 @@
         "Backzeit": "ca. 10 Minuten",
         "Gesamtzeit": "ca. 30 Minuten",
         "Zubereitung": "Die Tomaten fein hacken und wieder in den Saft zurueckgeben. Den Mais auf einem Sieb abtropfen lassen.\nDie Zwiebeln schaelen und wuerfeln. Das Olivenoel in einer Pfanne erhitzen und den zuvor zerkleinerten Tofu\ndarin scharf anbraten.\nZwiebeln dazugeben und alles etwa 5 Minuten garen, mit Salz, Pfeffer, Cayennepfeffer\nund Kreuzkuemmel kraeftig wuerzen. Dann die gehackten Tomaten mit dem Saft und den Mais unterruehren.\nDie Masse einige Minuten einkochen lassen, bis fast die gesamte Fluessigkeit verdampft ist.\nMit etwas Zucker abschmecken. Die Tortillas mit der Creme fraiche bestreichen und die Masse\ngleichmaessig darauf verteilen. Mit etwas geriebenem Kaese bestreuen.\nDie Tortillas zu Burritos aufrollen und in eine Auflaufform legen.\nMit dem restlichen geriebenen Kaese bestreuen und im auf 200 Grad vorgeheizten Backofen 4 - 5 Minuten ueberbacken,\nbis der Kaese zerlaufen ist. Sofort servieren."
+  },
+        "gemuese_suppe": {
+            "Rezept": "Gemuese Suppe",
+            "Zutaten": [
+                "1 Suppengruen",
+                "50 g Nudeln",
+                "2 TL Gemuesebruehe",
+                "Olivenoel"
+    ],
+        "Arbeitszeit": "ca. 10 Minuten",
+        "Gesamtzeit": "30 Minuten",
+        "Zubereitung": "Moehren, Selleriewurzel und Lauch putzen und klein schneiden. In einem Topf etwas Oel erhitzen.\ndas Gemuese anbraten Gemuesebruehe einruehren und aufkochen lassen.\nbei mittlerer Hitze ca. 15 Min. kochen lassen dann Nudeln hinzugeben\nund weitere 3 - 5 Min. bissfest kochen. Mit Salz und Pfefer abschmecken."
+  },
+        "pilzresotto": {
+            "Rezept": "Pilzresotto",
+            "Zutaten": [
+                "300 g Pilze, gemischt",
+                "200 g Risottoreis",
+                "2 Schalotten",
+                "1 Bund Petersilie",
+                "1 Zehe Knoblauch",
+                "40 g Butter",
+                "100 ml Weisswein",
+                "400 ml Gemusebruehe",
+                "50 g Parmesan",
+                "Olivenoel"
+    ],
+            "Arbeitszeit": "ca. 20 Minuten",
+            "Gesamtzeit": "40 Minuten",
+            "Zubereitung": "Die Pilze putzen, die großen in Wuerfel schneiden. Die Schalotten und den Knoblauch schaelen,\nfein hacken und in 1 EL Butter in einem Topf anduensten und den Reis kurz mitduensten.\nMit Weisswein abloeschen und den Gemusebruehe hinzufuegen. Den Reis etwa 12 Min.\nunter staendigem Ruehren schwach kochen lassen, danach den Topf vom Herd nehmen.\nDie restliche Butter und den Parmesan darunter ruehren.\nDas Olivenoel in der Pfanne erhitzen, die zweite Schalotte dazugeben und die Pilze\ndarin etwa 3 Min. anduensten. Die Pilze unter das Risotto heben, alles mit Salz,\nMuskat und Pfeffer wuerzen und mit der gehackten Petersilie bestreuen."
+  },
+        "kartoffelpueree_mit_spinat": {
+            "Rezept": "Kartoffelpueree mit Spinat",
+            "Zutaten": [
+                "300 g Kartoffeln",
+                "100 g Suesskartoffeln",
+                "100 g Spinat",
+                "50 ml Sojamilch",
+                "1 EL Butter"
+    ],
+            "Arbeitszeit": "ca. 15 Minuten",
+            "Gesamtzeit": "35 Minuten",
+            "Zubereitung": "Alle Kartoffeln schaelen, wuerfeln und in Wasser 20 Min. gar kochen.\nDen Spinat in einem weiteren Topf mit etwas Wasser zum kochen bringen und leicht Koecheln lassen.\nSobald die Kartoffeln gar sind, das Wasser abgießen, die Butter und die Sojamilch hinzugeben\nund stampfen, mit Salz, Pfeffer und Muskat abschmecken.\nWer mag, kann noch zwei Spiegeleier dazu essen."
   }
 }
