@@ -1,0 +1,141 @@
+{
+   "blumenkohl_curry":{
+      "Rezept": "Blumenkohl Curry",
+      "Zutaten":[
+         "1/2 Kopf Blumenkohl",
+         "1 Stange Lauch",
+         "3 Zehe/n Knoblauch",
+         "1 EL Curry, mild",
+         "400 ml Kokosmilch",
+         "1 TL, Gemuesebruehe"
+      ],
+      "Arbeitszeit":"ca. 15 Minuten",
+      "Backzeit":"ca. 20 Minuten",
+      "Gesamtzeit":"ca. 35 Minuten",
+      "Zubereitung":"Den Blumenkohl putzen, waschen und in kleine Roeschen teilen.\nLauch putzen und in Ringe schneiden. Knoblauch schaelen und sehr fein hacken.\nDas Oel in einer hohen Pfanne erhitzen, das Gemuese darin kraeftig anbraten.\nCurrypulver hinzufügen und kurz anroesten. Mit Kokosmilch abloeschen.\nDas Gemuesebruehepulver einruehren und alles bei mittlerer Hitze und\ngeschlossenem Deckel in etwa 15 Minuten bissfest koecheln lassen.\nMit Salz und Pfeffer abschmecken.\nDazu passt am besten Naan-Brot oder Basmatireis."
+   },
+   "brokoliauflauf_mit_kartoffeln_und_lauch":{
+      "Rezept": "Brokoliauflauf mit Kartoffeln und Lauch",
+      "Zutaten":[
+         "200 g Brokkoli",
+         "200 g Kartoffeln",
+         "20 g Margarine",
+         "100 g Kaese, geriebener",
+         "20 g Mehl",
+         "1 Sojasahne"
+      ],
+      "Arbeitszeit":"ca. 15 Minuten",
+      "Backzeit":"ca. 25 Minuten",
+      "Gesamtzeit":"ca. 40 Minuten",
+      "Zubereitung":"Die Kartoffeln kochen, pellen und in Scheiben schneiden. Den Brokkoli in beliebig grosse Roeschen zerteilen und ca.\n3 Minuten blanchieren. Beides in der Auflaufform verteilen.\nDie Margarine in einem Topf erhitzen, das Mehl auf einmal hinzugeben und dabei staendig ruehren.\nDie Sojasahne dazugeben und unter staendigem Ruehren aufkochen lassen. Den Kaese, das Salz hinzugeben,\nunterruehren und aufkochen lassen.\nDie Sauce ueber die Kartoffeln und den Brokkoli giessen und noch etwas Kaese darueber streuen.\nBei 180°C ca. 30 Minuten überbacken."
+   },
+   "chili_sin_carne":{
+      "Rezept": "Chili sin Carne",
+      "Zutaten":[
+         "125 g Linsen, rote",
+         "1/2 Dose Kidneybohnen",
+         "1/2 Dose Mais",
+         "1/2 Zwiebel",
+         "1 m.-große Kartoffel",
+         "1/2 Pck. Tomate(n), passierte",
+         "Chili",
+         "1 Knoblauchzehe",
+         "625 ml Gemuesebruehe",
+         "Paprikapulver",
+         "Currypulver"
+      ],
+      "Arbeitszeit":"ca. 30 Minuten",
+      "Gesamtzeit":"30 Minuten",
+      "Zubereitung":"Zwiebel und Knoblauch klein schneiden und in einem großen Topf in etwas Butter anschwitzen.\nDie Kartoffeln schaelen, in kleine Wuerfel schneiden und dazu geben. Die roten Linsen kurz abbrausen\nund ebenfalls in die Topf geben. Mit der Gemuesebruehe abloeschen und 20-25 Minuten koecheln lassen.\nDie Kartoffeln muessen durch sein und die Linsen schoen weich zerfallen.\nKidneybohnen und Mais abtropfen lassen, unterruehren und gut heiss werden lassen.\nDann nach Belieben die Suppe mit den passierten Tomaten strecken -\nMit etwas Salz, Pfeffer, Curry, Paprika und Chilipulver kraeftig wuerzen (je nach Geschmack)."
+   },
+   "ofengemuese":{
+      "Rezept": "Ofengemuese",
+      "Zutaten":[
+         "500 g Kartoffel(n), kleine",
+         "300 g Rote Bete",
+         "300 g Rosenkohl",
+         "200 g Champignons",
+         "1 Zwiebel",
+         "viel Olivenoel"
+      ],
+      "Arbeitszeit":"ca. 10 Minuten",
+      "Backzeit":"ca. 30 Minuten",
+      "Gesamtzeit":"ca. 40 Minuten",
+      "Zubereitung":"Den Ofen auf 200 °C vorheizen. Kartoffeln, Rote Bete schaelen und halbieren.\nRosenkohl putzen und Zwiebel in Ringe schneiden.\nZutaten in Olivenoel marinieren und mit Salz und Pfeffer abschmecken.\nAlles auf ein Backblech fuer 30 Minuten in den Ofen"
+   },
+   "pasta_mit_walnuss-pesto_und_brokkoli":{
+      "Rezept": "Pasta mit Walnuss-Pesto und Brokkoli",
+      "Zutaten":[
+         "40 g Sojasahne",
+         "25 g Walnuesse",
+         "125 g Brokkoli",
+         "100 g Nudeln, nach Belieben",
+         "1 Knoblauchzehe",
+         "1/2 Bund Basilikum",
+         "2 EL Olivenoel",
+         "Salz und Pfeffer"
+      ],
+      "Arbeitszeit":"ca. 35 Minuten",
+      "Gesamtzeit":"35 Minuten",
+      "Zubereitung":"Walnuesse grob hacken und ohne Oel anroesten. Brokkoli putzen und in kleine Roeschen schneiden.\nKnoblauch hacken, Basilikumblaetter abzupfen.\nNudeln nach Anleitung kochen, Brokkoli die letzten 5 Minuten mitkochen.\nNuesse (1 TL aufheben), Basilikum, Knoblauch, Sojasahne, Oel im Mixer zerkleinern (Pesto-Konsistenz).\nPesto mit Salz, Pfeffer abschmecken\nNudeln und Brokkoli abgießen und zurueck in den Topf geben, Pesto vorsichtig unterruehren.\nAuf Tellern anrichten, mit frisch gemahlenem Pfeffer wuerzen, und die verbliebenen Walnuesse darueber geben."
+   },
+   "poached_eggs_mit_avocado":{
+      "Rezept": "Poached Eggs mit Avocado",
+      "Zutaten":[
+         "2 Eier",
+         "1 Broetchen",
+         "1/2 Avocado",
+         "etwas Kresse"
+      ],
+      "Arbeitszeit":"ca.10 Minuten",
+      "Kochezeit":"5 Minuten",
+      "Gesamtzeit":"ca. 15 Minuten",
+      "Zubereitung":"Die Avocado aufschneiden und in scheiben schneiden.\nEinen Topf mit ungesalzenem Wasser fuellen und aufkochen\nZwei Quadrate Frischhaltefolie bereit legen und jeweils ein Ei aufschlagen\nund auf die Frischhaltefolie geben, danach zu einem Paeckchen formen...\nDie Paechchen in das siedende Wasser geben und 5 Minuten kochen\nJetzt das Broetchen aufschneiden und mit Avocado belegen und jewils ein pochiertes Ei\ndrauf legen mit Salz, Pfeffen und Kresse abschmecken."
+   },
+   "sauerkraut_flammkuchen":{
+      "Rezept": "Sauerkraut Flammkuchen",
+      "Zutaten":[
+         "1 Flammkuchen Boden",
+         "2 EL Oel",
+         "200 g Creme fraîche",
+         "1 Zwiebel",
+         "150 g Sauerkraut",
+         "200 g Ziegenkaese"
+      ],
+      "Arbeitszeit":"ca. 5 Minuten",
+      "Backzeit":"ca. 15 Minuten",
+      "Gesamtzeit":"ca. 20 Minuten",
+      "Zubereitung":"Teig auf einem gefetteten Backblech ausrollen.\nDie Creme fraîche auf den Teig geben und etwas salzen bzw. pfeffern. Die Zwiebelringe auf dem Teig verteilen\nund das Sauerkraut gleichmaessig darauf geben. Ziegenkaese in Scheiben geschnitten auf dem Sauerkraut verteilen.\nDen Flammkuchen bei 160 Grad Umluft (180 Grad Ober-/Unterhitze) 12 - 15 Minuten backen, bis der Rand braun\nund der Kaese zerlaufen ist. Dabei beachten, dass das Sauerkraut nicht verschmort."
+   },
+   "spanische_tortilla":{
+      "Rezept": "Spanische Tortilla",
+      "Zutaten":[
+         "250 g Kartoffel(n)",
+         "75  g Zwiebel(n)",
+         "2 Ei(er)",
+         "30 ml Olivenoel",
+         "Salz"
+      ],
+      "Arbeitszeit":"ca. 15 Minuten",
+      "Backzeit":"ca. 20 Minuten",
+      "Gesamtzeit":"ca. 30 Minuten",
+      "Zubereitung":"Die Kartoffeln schaelen, in kleine (0,5 - 1 cm) Wuerfel schneiden und mit einem gestrichenen\nTeeloeffel Salz bestreuen. Die Zwiebeln fein hacken\nCa. 30 ml Olivenoel in einer Pfanne (24 cm Durchmesser) erhitzen und die Kartoffelwuerfel zugeben.\nDie Temperatur auf mittlere Hitze zurückstellen und die Kartoffeln etwa 12 - 15 Minuten garen.\nDie Zwiebeln dazu geben und glasig goldbraun anschwitzen.\nDie Eier in einer Schuessel geben und mit einem Schneebesen kraeftig schlagen und salzen.\nKartoffeln und Zwiebeln zu den Eiern in die Schuessel geben und 3 - 5 Minuten ziehen lassen.\nCa. 2 - 3 Essloeffel Olivenoel stark erhitzen, die Tortillamasse in die Pfanne geben und 2 Minuten braten.\nWenn die Masse anfaengt zu braunen (die Eier nicht stocken lassen), die Tortilla mithilfe eines Tellers umdrehen.\nEinfach den Teller auf die Tortilla legen und die Pfanne umdrehen, sodass die Tortilla auf dem Teller liegt.\nDann die Tortilla in die Pfanne gleiten lassen. Von der Rueckseite 1 Minute braten.\nDie Tortilla soll innen noch fluessig sein.\n\nAls Beilagen Brot oder Salat reichen."
+   },
+    "mexikanische_burritos": {
+        "Rezept": "Mexikanische Burritos",
+        "Zutaten": [
+            "100 g Dosenomate(n), geschaelte",
+            "50 g Maiskoerner",
+            "1 Zwiebel",
+            "2 EL Olivenoel",
+            "150 g Raeuchertofu",
+            "2 Weizentortillas",
+            "2 EL Creme fraiche",
+            "100 g Kaese, gerieben"
+    ],
+        "Arbeitszeit": "ca. 20 Minuten",
+        "Backzeit": "ca. 10 Minuten",
+        "Gesamtzeit": "ca. 30 Minuten",
+        "Zubereitung": "Die Tomaten fein hacken und wieder in den Saft zurueckgeben. Den Mais auf einem Sieb abtropfen lassen.\nDie Zwiebeln schaelen und wuerfeln. Das Olivenoel in einer Pfanne erhitzen und den zuvor zerkleinerten Tofu\ndarin scharf anbraten.\nZwiebeln dazugeben und alles etwa 5 Minuten garen, mit Salz, Pfeffer, Cayennepfeffer\nund Kreuzkuemmel kraeftig wuerzen. Dann die gehackten Tomaten mit dem Saft und den Mais unterruehren.\nDie Masse einige Minuten einkochen lassen, bis fast die gesamte Fluessigkeit verdampft ist.\nMit etwas Zucker abschmecken. Die Tortillas mit der Creme fraiche bestreichen und die Masse\ngleichmaessig darauf verteilen. Mit etwas geriebenem Kaese bestreuen.\nDie Tortillas zu Burritos aufrollen und in eine Auflaufform legen.\nMit dem restlichen geriebenen Kaese bestreuen und im auf 200 Grad vorgeheizten Backofen 4 - 5 Minuten ueberbacken,\nbis der Kaese zerlaufen ist. Sofort servieren."
+  }
+}

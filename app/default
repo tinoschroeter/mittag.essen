@@ -1,0 +1,21 @@
+<VirtualHost *:80>
+	ServerName mittag.es
+	ServerAdmin mail@wgnetworks.de
+	DocumentRoot /var/www/html/
+ 
+        ScriptAlias "/index.html" "/usr/lib/cgi-bin/index.cgi"
+        ScriptAlias "/index" "/usr/lib/cgi-bin/index.cgi"
+        ScriptAlias "/sen" "/usr/lib/cgi-bin/index.cgi"
+        RedirectMatch 404 index.htsh
+        ErrorDocument 404 /404.html
+        <Directory /var/www/html/>
+          AllowOverride none
+          Options -Indexes
+          Require all granted
+        </Directory>
+	ErrorLog /var/log/apache2/error.log
+	CustomLog /var/log/apache2/access.log combined
+	Include conf-available/serve-cgi-bin.conf
+    RewriteEngine On
+    #RewriteRule "^/"  "/sen"
+</VirtualHost>
