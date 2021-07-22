@@ -24,7 +24,7 @@ const length = Object.keys(data).length;
 const num = Math.floor(Math.random() * length);
 const key = Object.keys(data)[num];
 
-const qr = QRCode.toString(url.replace(/data.json/, "") + key, segs, (err, url) => { 
+const qr = QRCode.toString(url.replace(/data.json/, "sen/") + key, segs, (err, url) => { 
     if(err) console.error(err)
 })
 

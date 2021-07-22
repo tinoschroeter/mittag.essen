@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#">
 <head>
-<title>mittag.es/sen</title>
-<meta property="og:url" content="https://mittag.es/sen/"/>
+<title>tino.mittag.sh</title>
+<meta property="og:url" content="https://mittag.tino.sh"/>
 <meta property="og:title" content="mittag.es/sen"/>
 <meta property="og:description" content="Lecker Essen mit curl."/>
-<meta property="og:site_name" content="mittag.es/sen"/>
-<meta property="og:image" content="https://mittag.es/preview.png"/>
+<meta property="og:site_name" content="mittag.tino.sh"/>
+<meta property="og:image" content="https://mittag.tino.sh/preview.png"/>
 
   <link rel="shortcut icon" href="favicon.ico">
   <style>
@@ -32,7 +32,7 @@ if (location.protocol !== 'https:') {
     location.replace(`https:${location.href.substring(location.protocol.length)}`);
 }
 let count = 0;
-let text = "$ curl mittag.es/sen";
+let text = "$ curl mittag.tino.sh";
 let blink = "_"
 let addText = [];
 let curl = document.getElementById("curl");

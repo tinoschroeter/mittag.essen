@@ -3,12 +3,12 @@
 ![BoS](https://img.shields.io/badge/%23!Bash%20-%20on%20steroids-blue.svg)
 
 ```
- curl mittag.es/sen
+ curl mittag.tino.sh
 ```
 
 ## tools
 ```
-~ curl qrenco.de/https://mittag.es/sen/7654
+~ curl qrenco.de/https://mittag.tino.sh/sen/7654
 ~ figlet SpargeL
 ~ lolcat
 ```
