@@ -1,0 +1,23 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "import-jsx": "^4.0.0",
+    "ink": "^3.0.9",
+    "ink-big-text": "^1.2.0",
+    "ink-gradient": "^2.0.0",
+    "meow": "^10.1.0",
+    "node-fetch": "^2.6.1",
+    "qrcode": "^1.4.4",
+    "react": "^16.14.0",
+    "sync-fetch": "^0.3.0"
+  }
+}
