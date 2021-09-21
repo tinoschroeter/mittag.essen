@@ -19,6 +19,6 @@ npm install
 * skaffold
 * Kubernetes
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/tinoschroeter/mittag.essen/master/app/preview.png">
+<p align="right">
+    <img src="https://raw.githubusercontent.com/tinoschroeter/mittag.essen/master/server/www/preview.png">
 </p>
