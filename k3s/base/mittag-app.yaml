@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: mittag-app
+  name: mittag-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mittag-app
+  template:
+    metadata:
+      labels:
+        app: mittag-app
+    spec:
+      containers:
+      - name: mittag-app
+        image: registry.tino.sh/mittag-app
+        resources:
+          requests:
+            memory: "50Mi"
+            cpu: "30m"
+          limits:
+            memory: "64Mi"
+            cpu: "100m"
+      nodeSelector:
+        arch: arm64

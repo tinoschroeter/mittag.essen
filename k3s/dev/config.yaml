@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config
+  namespace: dev-mittag
+config:
+  PORT: "80"

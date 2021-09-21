@@ -1,0 +1,7 @@
+---
+namespace: mittag   
+
+bases:
+  - config.yaml
+  - ../base
+  - ingress.yaml

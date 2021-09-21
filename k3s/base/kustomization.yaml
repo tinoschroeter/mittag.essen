@@ -1,0 +1,3 @@
+resources:
+  - mittag-app.yaml
+  - service.yaml

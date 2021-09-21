@@ -1,0 +1,9 @@
+namespace: dev-mittag
+
+replicas:
+- name: mittag-app
+  count: 1
+
+bases:
+  - ../base
+  - ingress.yaml

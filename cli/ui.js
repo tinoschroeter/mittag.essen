@@ -5,7 +5,7 @@ const BigText = require('ink-big-text')
 const fetch = require('sync-fetch')
 const QRCode = require('qrcode')
 
-const url = "https://mittag.tino.sh/data.json"
+const url = "https://mittag.tino.sh/api"
 // https://github.com/vadimdemedes/ink 
 // React for CLIs. Build and test your CLI output using components.
 

@@ -1,0 +1,23 @@
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: mittag-ingress
+  namespace: mittag
+  annotations:
+    kubernetes.io/ingress.class: traefik
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    #ingress.kubernetes.io/ssl-redirect: "true"
+
+spec:
+  rules:
+  - host: mittag.tino.sh
+    http:
+      paths:
+      - backend:
+          serviceName: mittag-app-service
+          servicePort: 80
+
+  tls:
+  - hosts:
+    - mittag.tino.sh
+    secretName: mittag-tino-sh-tls

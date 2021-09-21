@@ -3,8 +3,8 @@
 <head>
 <title>tino.mittag.sh</title>
 <meta property="og:url" content="https://mittag.tino.sh"/>
-<meta property="og:title" content="mittag.es/sen"/>
-<meta property="og:description" content="Lecker Essen mit curl."/>
+<meta property="og:title" content="mittag.tino.sh"/>
+<meta property="og:description" content="Lecker Essen mit cli."/>
 <meta property="og:site_name" content="mittag.tino.sh"/>
 <meta property="og:image" content="https://mittag.tino.sh/preview.png"/>
 
@@ -28,11 +28,8 @@
   </div>
 </body>
 <script>
-if (location.protocol !== 'https:') {
-    location.replace(`https:${location.href.substring(location.protocol.length)}`);
-}
 let count = 0;
-let text = "$ curl mittag.tino.sh";
+let text = "$ ./mittag";
 let blink = "_"
 let addText = [];
 let curl = document.getElementById("curl");
