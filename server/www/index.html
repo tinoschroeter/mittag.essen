@@ -75,11 +75,6 @@
         }
       }
     </style>
-    <div id="rezept" style="display: none; color: white">
-      <h1 id="rezeptTitel"></h1>
-      <ul id="rezeptZutaten"></ul>
-      <p id="rezeptZubereitung"></p>
-    </div>
     <div style="width: 80%; margin: 40px auto">
       <h1 style="color: green" id="curl">$ _</h1>
       <img style="display: none" id="image" src="/output.png" />
@@ -92,9 +87,6 @@
     let addText = [];
     let curl = document.getElementById("curl");
     let bild = document.getElementById("image");
-    let rezept = document.getElementById("rezept");
-
-    let search = window.location.pathname.replace("/sen/", "");
 
     function typeText() {
       addText.push(text[count]);
@@ -121,31 +113,5 @@
     let inter = setInterval(() => {
       typeText();
     }, 100);
-
-    if (search.length > 4) {
-      fetch("/api", {
-        method: "GET",
-      })
-        .then((response) => {
-          return response.json();
-        })
-        .then((json) => {
-          let data = json[search];
-          document.getElementById("rezeptTitel").innerText = search
-            .replace(/_/g, " ")
-            .toUpperCase();
-          let ul = document.getElementById("rezeptZutaten");
-          for (let i = 0; i < data.Zutaten.length; i++) {
-            let li = document.createElement("li");
-            li.appendChild(document.createTextNode(data.Zutaten[i]));
-            ul.appendChild(li);
-          }
-          document.getElementById("rezeptZubereitung").innerText =
-            data.Zubereitung;
-        });
-      rezept.style.display = "block";
-      curl.style.display = "none";
-      clearInterval(inter);
-    }
   </script>
 </html>
