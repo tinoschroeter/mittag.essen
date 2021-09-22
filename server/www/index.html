@@ -88,7 +88,7 @@
   <script>
     let count = 0;
     let text = "$ ./mittag";
-    let blink = "_"
+    let blink = "_";
     let addText = [];
     let curl = document.getElementById("curl");
     let bild = document.getElementById("image");
@@ -97,45 +97,52 @@
     let search = window.location.pathname.replace("/sen/", "");
 
     function typeText() {
-      addText.push(text[count])
-      type = addText.join('');
+      addText.push(text[count]);
+      type = addText.join("");
       curl.innerText = type + "_";
-      count++
-      if (count -1 > text.length) {
+      count++;
+      if (count - 1 > text.length) {
         bild.style.display = "block";
-        curl.onmousedown = function (event) { clearInterval(inter); }
-        if (count % 4 ==  0) {
+        curl.onmousedown = function (event) {
+          clearInterval(inter);
+        };
+        if (count % 4 == 0) {
           curl.innerText = text;
         } else if (count > 666) {
-            bild.style.display = "none";
-            addText = [];
-            count = 0;
+          bild.style.display = "none";
+          addText = [];
+          count = 0;
         } else {
-            curl.innerText = text + blink;
+          curl.innerText = text + blink;
         }
       }
     }
 
-    let inter = setInterval(function() {
-        typeText();
+    let inter = setInterval(() => {
+      typeText();
     }, 100);
 
     if (search.length > 4) {
-      fetch('/api', {
-        method: 'GET'
+      fetch("/api", {
+        method: "GET",
       })
-        .then(response) => { return response.json(); })
-      .then((json) => {
-    	let data = json[search];
-            document.getElementById("rezeptTitel").innerText = search.replace(/_/g, " ").toUpperCase();
-    	    let ul = document.getElementById("rezeptZutaten");
-    	    for(let i = 0; i<data.Zutaten.length; i++) {
-                let li = document.createElement("li");
-                li.appendChild(document.createTextNode(data.Zutaten[i]));
-                ul.appendChild(li);
-    	}
-    	document.getElementById("rezeptZubereitung").innerText = data.Zubereitung;
-      });
+        .then((response) => {
+          return response.json();
+        })
+        .then((json) => {
+          let data = json[search];
+          document.getElementById("rezeptTitel").innerText = search
+            .replace(/_/g, " ")
+            .toUpperCase();
+          let ul = document.getElementById("rezeptZutaten");
+          for (let i = 0; i < data.Zutaten.length; i++) {
+            let li = document.createElement("li");
+            li.appendChild(document.createTextNode(data.Zutaten[i]));
+            ul.appendChild(li);
+          }
+          document.getElementById("rezeptZubereitung").innerText =
+            data.Zubereitung;
+        });
       rezept.style.display = "block";
       curl.style.display = "none";
       clearInterval(inter);
