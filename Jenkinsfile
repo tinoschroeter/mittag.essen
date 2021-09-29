@@ -5,7 +5,10 @@ pipeline {
         stage('Build Dev') {
             steps {
                 echo 'Build Dev..'
-                sh("cd k3s/production/ && skaffold run")
+                sh '''#!/bin/bash
+                      test -f k3s/dev && exit 0
+                      cd k3s/production/ && skaffold run
+                   '''
             }
         }
         stage('Test') {
