@@ -1,14 +1,11 @@
 pipeline {
     agent any
-    triggers {
-        cron('*/2 * * * *')
-    }
 
     stages {
-        stage('Build') {
+        stage('Build Dev') {
             steps {
-                echo 'Building..'
-                sh 'hostname'
+                echo 'Build Dev..'
+                sh("cd k3s/production/ && skaffold run")
             }
         }
         stage('Test') {
@@ -16,9 +13,10 @@ pipeline {
                 echo 'Testing..'
             }
         }
-        stage('Deploy') {
+        stage('Build Production') {
             steps {
-                echo 'Deploying....'
+                echo 'Build Production....'
+                sh("cd k3s/production/ && skaffold run")
             }
         }
     }
