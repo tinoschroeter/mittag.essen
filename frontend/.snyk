@@ -1,0 +1,371 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-AJV-584908:
+    - react-scripts > extract-text-webpack-plugin > schema-utils > ajv:
+        reason: None given
+        expires: '2021-10-28T17:48:07.256Z'
+  SNYK-JS-ANSIHTML-1296849:
+    - react-scripts > webpack-dev-server > ansi-html:
+        reason: None given
+        expires: '2021-10-28T17:48:07.256Z'
+  SNYK-JS-ANSIREGEX-1583908:
+    - react-scripts > webpack > yargs > string-width > strip-ansi > ansi-regex:
+        reason: None given
+        expires: '2021-10-28T17:48:07.256Z'
+    - react-scripts > sw-precache-webpack-plugin > sw-precache > update-notifier > boxen > string-width > strip-ansi > ansi-regex:
+        reason: None given
+        expires: '2021-10-28T17:48:07.256Z'
+    - react-scripts > sw-precache-webpack-plugin > sw-precache > update-notifier > boxen > ansi-align > string-width > strip-ansi > ansi-regex:
+        reason: None given
+        expires: '2021-10-28T17:48:07.256Z'
+    - react-scripts > sw-precache-webpack-plugin > sw-precache > update-notifier > boxen > widest-line > string-width > strip-ansi > ansi-regex:
+        reason: None given
+        expires: '2021-10-28T17:48:07.256Z'
+  SNYK-JS-COLORSTRING-1082939:
+    - react-scripts > css-loader > cssnano > postcss-colormin > colormin > color > color-string:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+  SNYK-JS-GLOBPARENT-1016905:
+    - react-scripts > jest > jest-cli > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+    - react-scripts > webpack-dev-server > http-proxy-middleware > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+    - react-scripts > babel-jest > babel-plugin-istanbul > test-exclude > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+    - react-scripts > jest > jest-cli > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+    - react-scripts > jest > jest-cli > jest-runtime > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+    - react-scripts > jest > jest-cli > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > test-exclude > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.257Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.259Z'
+    - react-scripts > jest > jest-cli > jest-snapshot > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.259Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.259Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.259Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.259Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > anymatch > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.259Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > test-exclude > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.259Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.259Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-node > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.260Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.260Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.260Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.260Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > anymatch > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.260Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.260Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-node > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.260Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.261Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.261Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > parse-glob > glob-base > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.261Z'
+    - react-scripts > webpack-dev-server > chokidar > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.261Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > glob-parent:
+        reason: None given
+        expires: '2021-10-28T17:48:07.261Z'
+  SNYK-JS-LODASHTEMPLATE-1088054:
+    - react-scripts > sw-precache-webpack-plugin > sw-precache > lodash.template:
+        reason: None given
+        expires: '2021-10-28T17:48:07.261Z'
+  SNYK-JS-MERGE-1040469:
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > exec-sh > merge:
+        reason: None given
+        expires: '2021-10-28T17:48:07.261Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > exec-sh > merge:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+  SNYK-JS-MERGE-1042987:
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > exec-sh > merge:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > exec-sh > merge:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+  SNYK-JS-POSTCSS-1255640:
+    - react-scripts > css-loader > cssnano > postcss-filter-plugins > postcss:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+  SNYK-JS-SETVALUE-1540541:
+    - react-scripts > webpack-dev-server > chokidar > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+    - react-scripts > webpack-dev-server > chokidar > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.262Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.263Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.263Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.263Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.263Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.263Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.263Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.263Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.263Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.263Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.263Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.264Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.264Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.264Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.264Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.264Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.264Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.264Z'
+    - react-scripts > webpack-dev-server > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.264Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.264Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.265Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.265Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.265Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.265Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.265Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.265Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.265Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.265Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.265Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.265Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+    - react-scripts > webpack > watchpack > watchpack-chokidar2 > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > union-value > set-value:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+  SNYK-JS-TRIMNEWLINES-1298042:
+    - react-scripts > sw-precache-webpack-plugin > sw-precache > meow > trim-newlines:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+    - react-scripts > webpack-dev-server > internal-ip > meow > trim-newlines:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+  SNYK-JS-YARGSPARSER-560381:
+    - react-scripts > webpack > yargs > yargs-parser:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+  'npm:braces:20180219':
+    - react-scripts > jest > jest-cli > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.266Z'
+    - react-scripts > jest > jest-cli > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-runtime > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-plugin-istanbul > test-exclude > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-runtime > babel-jest > babel-plugin-istanbul > test-exclude > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-node > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.267Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.268Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.268Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.268Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.268Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-node > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.269Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.269Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.269Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2021-10-28T17:48:07.269Z'
+  'npm:content-type-parser:20170905':
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2021-10-28T17:48:07.269Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2021-10-28T17:48:07.269Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2021-10-28T17:48:07.269Z'
+  'npm:mem:20180117':
+    - react-scripts > webpack > yargs > os-locale > mem:
+        reason: None given
+        expires: '2021-10-28T17:48:07.269Z'
+patch: {}
