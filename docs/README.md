@@ -1,5 +1,7 @@
 ## Lecker Essen in der CLI
 
+[![Build Status](https://jenkins.tino.sh/buildStatus/icon?job=mittag.essen%2Fmain)](https://jenkins.tino.sh/job/mittag.essen/job/main/)
+
 ```
 git clone https://github.com/tinoschroeter/mittag.essen.git
 cd mittag.essen/cli
