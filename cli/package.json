@@ -11,14 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "import-jsx": "^4.0.0",
-    "ink": "^3.0.9",
+    "ink": "^3.2.0",
     "ink-big-text": "^1.2.0",
     "ink-gradient": "^2.0.0",
     "meow": "^10.1.0",
     "node-fetch": "^2.6.5",
     "qrcode": "^1.4.4",
     "react": "^16.14.0",
-    "sync-fetch": "^0.3.0",
+    "sync-fetch": "^0.3.1",
     "ansi-regex": ">=6.0.1"
   }
 }
