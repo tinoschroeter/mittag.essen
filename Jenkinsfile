@@ -24,7 +24,7 @@ pipeline {
       }
       stage('Build Production') {
         when { 
-          branch 'master'
+          branch 'main'
           anyOf {
             changeset "server/**"
             changeset "frontend/**"
