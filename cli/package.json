@@ -15,7 +15,7 @@
     "ink-big-text": "^1.2.0",
     "ink-gradient": "^2.0.0",
     "meow": "^10.1.0",
-    "node-fetch": "^2.6.5",
+    "node-fetch": "^2.6.6",
     "qrcode": "^1.5.0",
     "react": "^16.14.0",
     "sync-fetch": "^0.3.1",
