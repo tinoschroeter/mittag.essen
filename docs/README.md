@@ -8,9 +8,9 @@
 ```
 git clone https://github.com/tinoschroeter/mittag.essen.git
 cd mittag.essen/cli
-npm install
+npm install -g
 
-./mittag
+mittag
 ```
 
 [https://mittag.tino.sh/](https://mittag.tino.sh/)
