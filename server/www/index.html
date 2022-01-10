@@ -13,7 +13,7 @@
       h1,
       p,
       ul {
-        font-size: 300%;
+        font-size: 150%;
       }
     </style>
   </head>
@@ -82,7 +82,7 @@
   </body>
   <script>
     let count = 0;
-    let text = "$ ./mittag";
+    let text = "$ git clone https://github.com/tinoschroeter/mittag.essen.git\n$ cd mittag.essen/cli\n$ npm install -g\n$ mittag";
     let blink = "_";
     let addText = [];
     let curl = document.getElementById("curl");
@@ -112,6 +112,6 @@
 
     let inter = setInterval(() => {
       typeText();
-    }, 100);
+    }, 60);
   </script>
 </html>
