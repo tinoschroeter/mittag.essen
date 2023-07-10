@@ -9,11 +9,6 @@ const url = "https://mittag.tino.sh/api";
 // https://github.com/vadimdemedes/ink
 // React for CLIs. Build and test your CLI output using components.
 
-var segs = [
-  { data: "ABCDEFG", mode: "alphanumeric" },
-  { data: "0123456", mode: "numeric" },
-];
-
 const data = fetch(url, {
   headers: {
     Accept: "application/json",
@@ -24,10 +19,15 @@ const length = Object.keys(data).length;
 const num = Math.floor(Math.random() * length);
 const key = Object.keys(data)[num];
 
+var segs = [
+  { data: "ABCDEFG", mode: "alphanumeric" },
+  { data: "0123456", mode: "numeric" },
+];
+
 const qr = QRCode.toString(
   url.replace(/api/, "sen/") + key,
   segs,
-  (err, url) => {
+  (err, _url) => {
     if (err) console.error(err);
   }
 );
